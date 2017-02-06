@@ -97,7 +97,7 @@ HTTP GET localhost:8080/ejbs/services/calculo?marca=GOL&modelo=WOLKSWAGEM&placa=
 
 
 # Configurações JTA 
-- 1. Copie o driver do MySQL para a pasta <JBOSS-HOME>/modules/com/mysql/main. Provavelmente não existirá a pasta mysql/main, portanto você deverá criá-la e efetuar a cópia.
+- 1. Copie o driver do MySQL para a pasta do WilfFly /modules/com/mysql/main. Provavelmente não existirá a pasta mysql/main, portanto você deverá criá-la e efetuar a cópia.
 - 2. Na mesma pasta crie o documento module.xml conforme o conteúdo abaixo:
 
 ```
