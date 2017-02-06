@@ -1,4 +1,4 @@
-package com.mkyong;
+package com.ejb;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
