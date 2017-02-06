@@ -9,6 +9,12 @@ Esse projeto tem como objetivo ser a API de lista de um estacionamento,
 ###### Sistemas:
 - EJB - Sistema de Calculo de um estacionamento
 
+###### Tecnologias:
+- Mysql - versão 5.1.6
+- WildFly 10.1
+- Maven bild empacotamento de packages
+- EJB, JPA, Hibernate(provider), RESTEasy
+
 ##### Premissas
 - Vamos usar como parametros, uma marca, modelo e placa do veiculo então será
   retornado o valor a ser pago pelo cliente.
@@ -67,7 +73,7 @@ HTTP GET localhost:8080/ejbs/services/calculo?marca=FOCUS&modelo=FORD&placa=NBK3
   "marca": "FOCUS",
   "modelo": "FORD",
   "placa": "KOI2365",
-  "valor": 10
+  "valor": 1
  }
 ]
 ```
@@ -83,7 +89,7 @@ HTTP GET localhost:8080/ejbs/services/calculo?marca=GOL&modelo=WOLKSWAGEM&placa=
   "marca": "FOCUS",
   "modelo": "FORD",
   "placa": "KOI2365",
-  "valor": 10
+  "valor": 5
  }
 ]
 ```
