@@ -14,6 +14,7 @@ Esse projeto tem como objetivo ser a API de lista de um estacionamento,
 - WildFly 10.1
 - Maven bild empacotamento de packages
 - EJB, JPA, Hibernate(provider), RESTEasy
+- CDI 
 
 ##### Premissas
 - Vamos usar como parametros, uma marca, modelo e placa do veiculo então será
