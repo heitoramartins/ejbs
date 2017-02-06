@@ -3,25 +3,20 @@
 
 Esse projeto tem como objetivo ser a API de lista de um estacionamento, 
 
-O scripti MySql encontra-se ejbs\src\main\resources\ejb.sql
+- MySqL o scripti database encontra-se ejbs\src\main\resources\ejb.sql
 
 
 ###### Sistemas:
-- 2U - Sistema de Calculo de um estacionamento
+- EJB - Sistema de Calculo de um estacionamento
 
 ##### Premissas
-- Vamos usar uma marca, modelo e placa para saber deepois é retornado o valor a ser pago pelo cliente.
-  a tabela de preço e a seguinte:
+- Vamos usar como parametros, uma marca, modelo e placa do veiculo então será
+  retornado o valor a ser pago pelo cliente.
+  a tabela de preço é a seguinte:
   quando for marca FORD o valor é 10;
   quando for GM e o modelo for BLAZER o valor é 20;
   quando a placa contem B e termina com 99 o valor é 1;
   demais marcas e modelos o valor é 5;
-
-
-###### Web
-- email
-- ID vip
-- ID do login unico (person ID ou account ID)
 
 ##### Recursos
 
