@@ -24,7 +24,7 @@ Esse projeto tem como objetivo ser a API de lista de um estacionamento,
 
 #### Buscar listas de compras
 
-###### Para quando for GM e o modelo for BLAZER o valor é 20 ou contem B e termina com 99 o valor é 1;
+###### Para quando for GM e o modelo for BLAZER o valor é 20 ou a placa contem B e termina com 99 o valor a ser pago será 1;
 ```shell
 HTTP GET localhost:8080/ejbs/services/calculo?marca=BLAZER&modelo=GM&placa=KJU3265
 ```
@@ -40,7 +40,7 @@ HTTP GET localhost:8080/ejbs/services/calculo?marca=BLAZER&modelo=GM&placa=KJU32
 ]
 ```
 
-###### Para quando for marca FORD o valor é 10 ou contem B e termina com 99 o valor é 1
+###### Para quando for marca FORD o valor é 10 ou a placa contem B e termina com 99 o valor a ser pago será 1;
 ```shell
 HTTP GET localhost:8080/ejbs/services/calculo?marca=FOCUS&modelo=FORD&placa=KOI2365
 ```
@@ -72,7 +72,7 @@ HTTP GET localhost:8080/ejbs/services/calculo?marca=FOCUS&modelo=FORD&placa=NBK3
 ]
 ```
 
-###### Para as demais marcas e modelos o valor é 5 ou contem B e termina com 99 o valor é 1;
+###### Para as demais marcas e modelos o valor é 5 ou a placa contem B e termina com 99 o valor a ser pago será 1;
 ```shell
 HTTP GET localhost:8080/ejbs/services/calculo?marca=GOL&modelo=WOLKSWAGEM&placa=GCB6354
 ```
