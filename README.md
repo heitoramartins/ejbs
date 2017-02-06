@@ -86,8 +86,8 @@ HTTP GET localhost:8080/ejbs/services/calculo?marca=GOL&modelo=WOLKSWAGEM&placa=
 [
   {
   "id": 4,
-  "marca": "FOCUS",
-  "modelo": "FORD",
+  "marca": "GOL",
+  "modelo": "WOLKSWAGEM",
   "placa": "KOI2365",
   "valor": 5
  }
