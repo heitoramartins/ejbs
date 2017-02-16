@@ -1,4 +1,4 @@
-package com.ejb.repasotory;
+package com.ejb.repository;
 
 import java.util.List;
 

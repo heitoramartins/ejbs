@@ -8,7 +8,7 @@ import javax.persistence.PersistenceContext;
 import com.ejb.exception.CarroNaoEncontradoException;
 import com.ejb.model.Carro;
 import com.ejb.model.vo.CarroVO;
-import com.ejb.repasotory.CarroRepository;
+import com.ejb.repository.CarroRepository;
 import com.ejb.service.calculo.GerarCalculo;
 
 @Stateless
